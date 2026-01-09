@@ -52,3 +52,85 @@ nav {
     background-color: transparent;
     border: 1px solid #30B868;
 }
+
+.hero {
+    background-image: url(/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 70px 120px 134px 120px;
+}
+
+.highlighter {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 50px;
+}
+
+.highlighter h4 {
+    color: #30B868;;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h1 {
+    color: white;
+    opacity: 0.9;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h1 span {
+    color: #30B868;
+}
+
+.hero p {
+    color: white ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.transparentBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 12px 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.transparentBtn:hover {
+    border: 1px solid #30B868;
+    color: #30B868;
+    transform: scale(1.05);
+}
