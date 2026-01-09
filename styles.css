@@ -197,3 +197,57 @@ h2 {
     line-height: 29px;
     text-align: center;
 }
+
+.info {
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.knowledge {
+    width: 600px;
+    height: 600px;
+}
+
+.infoContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.infoContent h5 {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.infoContent p {
+    width: 75%;
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+ul.list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+li.items {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+li.items img {
+    width: 20px;
+    height: 20px;
+}
